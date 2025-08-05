@@ -1,4 +1,4 @@
-# 👶🧓 Age & Gender Estimation using Custom CNN & Transfer Learning
+#  Age & Gender Estimation using Custom CNN & Transfer Learning
 
 This repository contains my dual-approach project on predicting **Age** and classifying **Gender** from facial images. It includes:
 
@@ -9,13 +9,13 @@ The project showcases the differences in performance, complexity, and flexibilit
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
-### 🎯 Objectives:
-- 🔢 Predict **Age** (regression)
-- 🚻 Classify **Gender** (binary classification)
+###  Objectives:
+-  Predict **Age** (regression)
+-  Classify **Gender** (binary classification)
 
-### 🧪 Two Models Implemented:
+###  Two Models Implemented:
 1. **Model A:** Custom CNN architecture built from scratch
 2. **Model B:** Fine-tuned VGG16 model (Transfer Learning)
 
@@ -23,16 +23,16 @@ Both models share a **dual-output structure**, meaning they learn to predict age
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
-### 🧩 Custom CNN:
+### Custom CNN:
 - Multiple Conv2D layers with ReLU and MaxPooling
-- Batch Normalization & Dropout for regularization
+- Batch Normalisation & Dropout for regularisation
 - Dual output branches:
   - Age regression (linear activation)
   - Gender classification (sigmoid activation)
 
-### 📦 Transfer Learning (VGG16):
+### Transfer Learning (VGG16):
 - Pretrained VGG16 (ImageNet weights, no top)
 - Custom dense layers stacked on top
 - Fine-tuned final few layers
