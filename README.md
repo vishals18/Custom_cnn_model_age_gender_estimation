@@ -35,5 +35,5 @@ Both models share a **dual-output structure**, meaning they learn to predict age
 ### Transfer Learning (VGG16):
 - Pretrained VGG16 (ImageNet weights, no top)
 - Custom dense layers stacked on top
-- Fine-tuned final few layers
+- Fine-tuned the final few layers
 - Dual output branches (same as above)
